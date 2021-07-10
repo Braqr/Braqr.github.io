@@ -68,12 +68,10 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="记录," />
 
 
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="Cloud的小站" type="application/atom+xml" />
@@ -83,17 +81,23 @@
 
 
 
-<meta name="description" content="Hi. I’m Cloud ! 👋欢迎来到我的博客 About meStudent🎒&#x2F;MiBoy🍚&#x2F;Digital fans🖥️&#x2F;Myopia🧐     首先，欢迎你来到我的博客，本人性别男，爱好女，是一名准高一的00后，就读于长沙。对数码产品📷，动漫，等众多好看的，有趣的东西感兴趣，坚信着颜值即性能的理念,爱好折腾，我的邮箱地址&amp;#x33;&amp;#50;&amp;#x30;&amp;#x37;&amp;#57;">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于我">
-<meta property="og:url" content="https://lkkkk.xyz/about/index.html">
+<meta name="description" content="最近一直在寻找好用的图床，SM.MS的速度越来越堪忧，其他的就怕跑路，所以就看上了Github，但由于G站在国内一直处于半墙的状态，所以就用CDN加速，再通过PicGO一键上传，且GitHub的空间完全够个人博客的使用。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Github+jsDelivr+PicGo的图床方案">
+<meta property="og:url" content="https://lkkkk.xyz/2021/02/04/Github-jsDelivr-PicGo%E7%9A%84%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88/index.html">
 <meta property="og:site_name" content="Cloud的小站">
-<meta property="og:description" content="Hi. I’m Cloud ! 👋欢迎来到我的博客 About meStudent🎒&#x2F;MiBoy🍚&#x2F;Digital fans🖥️&#x2F;Myopia🧐     首先，欢迎你来到我的博客，本人性别男，爱好女，是一名准高一的00后，就读于长沙。对数码产品📷，动漫，等众多好看的，有趣的东西感兴趣，坚信着颜值即性能的理念,爱好折腾，我的邮箱地址&amp;#x33;&amp;#50;&amp;#x30;&amp;#x37;&amp;#57;">
+<meta property="og:description" content="最近一直在寻找好用的图床，SM.MS的速度越来越堪忧，其他的就怕跑路，所以就看上了Github，但由于G站在国内一直处于半墙的状态，所以就用CDN加速，再通过PicGO一键上传，且GitHub的空间完全够个人博客的使用。">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-07-10T04:22:08.000Z">
-<meta property="article:modified_time" content="2021-07-10T06:48:40.609Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/tk.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/tk1.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/%5B%5DJ@0HZJ~%7B(KDXQX%5DR%60Q@L2.png">
+<meta property="article:published_time" content="2021-02-04T06:30:00.000Z">
+<meta property="article:modified_time" content="2021-07-10T06:52:47.905Z">
 <meta property="article:author" content="无敌帅气的cloud">
+<meta property="article:tag" content="记录">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png">
 
 
 
@@ -123,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="https://lkkkk.xyz/about/"/>
+  <link rel="canonical" href="https://lkkkk.xyz/2021/02/04/Github-jsDelivr-PicGo的图床方案/"/>
 
 
 
 
 
-  <title>关于我 | Cloud的小站</title>
+  <title>使用Github+jsDelivr+PicGo的图床方案 | Cloud的小站</title>
   
 
 
@@ -264,61 +268,239 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lkkkk.xyz/2021/02/04/Github-jsDelivr-PicGo%E7%9A%84%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/Braqr/photo_bed@master/%E5%A4%B4%E5%83%8F.jpg?raw=true">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cloud的小站">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">关于我</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <h2 id="Hi-I’m-Cloud-👋"><a href="#Hi-I’m-Cloud-👋" class="headerlink" title="Hi. I’m Cloud ! 👋"></a>Hi. I’m Cloud ! 👋</h2><p><code>欢迎来到我的博客</code></p>
-<h3 id="About-me"><a href="#About-me" class="headerlink" title="About me"></a>About me</h3><p>Student🎒/MiBoy🍚/Digital fans🖥️/Myopia🧐</p>
-</br>
-
-
-
-<p><strong>首先，欢迎你来到我的博客，本人性别男，爱好女，是一名准高一的00后，就读于长沙。对数码产品📷，动漫，等众多好看的，有趣的东西感兴趣，坚信着<del>颜值即性能</del>的理念,爱好折腾，我的邮箱地址<a href="mailto:&#x33;&#50;&#x30;&#x37;&#57;&#48;&#x34;&#x38;&#51;&#x33;&#64;&#x63;&#111;&#109;&#46;&#x63;&#x6f;&#109;">&#x33;&#50;&#x30;&#x37;&#57;&#48;&#x34;&#x38;&#51;&#x33;&#64;&#x63;&#111;&#109;&#46;&#x63;&#x6f;&#109;</a></strong></p>
-<h3 id="About-blog"><a href="#About-blog" class="headerlink" title="About blog"></a>About blog</h3><p><strong>本站使用<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>框架，使用<a target="_blank" rel="noopener" href="https://butterfly.js.org/">Butterfly</a>为主题，部署于<a target="_blank" rel="noopener" href="https://github.com/">Github</a>以及<a target="_blank" rel="noopener" href="https://vercel.com/">Vercel</a></strong></p>
-</br>
-
-<p><strong>本站的两个域名为</strong></p>
-<blockquote>
-<p>lkkkk.xyz</p>
-<p>lkkk.cf</p>
-</blockquote>
-<p><strong>本站信息</strong></p>
-<blockquote>
-<p>网站名称：Cloud的小站</p>
-<p>网站地址：<a href="https://lkkkk.xyz/">https://lkkkk.xyz</a></p>
-<p>网站描述：I’m interested in everything.</p>
-<p>头像：<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/Braqr/photo_bed@master/%E5%A4%B4%E5%83%8F.jpg?raw=true">https://cdn.jsdelivr.net/gh/Braqr/photo_bed@master/%E5%A4%B4%E5%83%8F.jpg?raw=true</a></p>
-<p>申请友链请将本站先添加至友链，再将信息置于评论区，或者联系我的邮箱</p>
-</blockquote>
-<h3 id="Why-blog"><a href="#Why-blog" class="headerlink" title="Why blog"></a>Why blog</h3><p><em><strong><code>Record Life</code></strong></em></p>
-<p>我认为博客存在的意义是为了记录自己的生活，将一些有趣的，值得记录的，以及值得分享的事情写出来，而不是让那些事情轻松的消失在记忆之中</p>
-<blockquote>
-<p>个人网站博主是一种有点神秘的动物，大部分隐身在互联网的丛林中， 很少有人观察到。那些完全生活在 Facebook 和 Google 的美丽花园中的互联网用户，甚至可能都不知道该物种的存在。 其他没有经验的用户可能会认为，个人网站已经像恐龙那样灭绝。 事实是野外还存在许多标本，只有了解该物种习性的猎人才能发现它们。 –《搜寻几乎不可见的个人网站》</p>
-</blockquote>
-
+          <h1 class="post-title" itemprop="name headline">使用Github+jsDelivr+PicGo的图床方案</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-04T14:30:00+08:00">
+                2021-02-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index">
+                    <span itemprop="name">折腾笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/02/04/Github-jsDelivr-PicGo%E7%9A%84%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/02/04/Github-jsDelivr-PicGo%E7%9A%84%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2021/02/04/Github-jsDelivr-PicGo%E7%9A%84%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88/" class="leancloud_visitors" data-flag-title="使用Github+jsDelivr+PicGo的图床方案">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  359
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+              <div class="post-description">
+                  最近一直在寻找好用的图床，SM.MS的速度越来越堪忧，其他的就怕跑路，所以就看上了Github，但由于G站在国内一直处于半墙的状态，所以就用CDN加速，再通过PicGO一键上传，且GitHub的空间完全够个人博客的使用。
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h1 id="使用Github-jsDelivr-PicGo的图床方案"><a href="#使用Github-jsDelivr-PicGo的图床方案" class="headerlink" title="使用Github+jsDelivr+PicGo的图床方案"></a>使用Github+jsDelivr+PicGo的图床方案</h1><p>最近一直在寻找好用的图床，SM.MS的速度越来越堪忧，其他的就怕跑路，所以就看上了Github，但由于G站在国内一直处于半墙的状态，所以就用CDN加速，再通过PicGO一键上传，且GitHub的空间完全够个人博客的使用。</p>
+<span id="more"></span>
+<p><br>CDN:<em>内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。</em></p>
+<h2 id="新建一个仓库"><a href="#新建一个仓库" class="headerlink" title="新建一个仓库"></a>新建一个仓库</h2><p>注意要勾选Public，进行公开</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="新建一个仓库"></p>
+<h2 id="获取Token"><a href="#获取Token" class="headerlink" title="获取Token"></a>获取Token</h2><p><a target="_blank" rel="noopener" href="https://github.com/settings/tokens/new">生成Token</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/tk.png" alt="TK"><br><img src="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/tk1.png" alt="2"></p>
+<p>在主页选择Settings-Developer settings-Personal access tokens-Generate new token，填写好描述，勾选repo，然后点击Generate token生成Token，复制好，待会需要填入PicGo。</p>
+<h2 id="下载PicGo"><a href="#下载PicGo" class="headerlink" title="下载PicGo"></a>下载PicGo</h2><p><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo">PicGo项目地址</a></p>
+<h2 id="配置PicGo"><a href="#配置PicGo" class="headerlink" title="配置PicGo"></a>配置PicGo</h2><p><img src="https://cdn.jsdelivr.net/gh/Braqr/photo_bed/%5B%5DJ@0HZJ~%7B(KDXQX%5DR%60Q@L2.png"></p>
+<ul>
+<li>第一项：填写好自己的仓库名</li>
+<li>第二项：填写默认master</li>
+<li>第三项：填写刚刚生成过的token</li>
+<li>第四项：填写你想储存的路径，不填则是根目录</li>
+<li>第五项：<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/%E7%94%A8%E6%88%B7%E5%90%8D/%E5%9B%BE%E5%BA%8A%E4%BB%93%E5%BA%93%E5%90%8D/%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84">https://cdn.jsdelivr.net/gh/用户名/图床仓库名/图片路径</a> 来加速图片</li>
+</ul>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>可以直接通过拖拽图片进行上传啦</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E8%AE%B0%E5%BD%95/" rel="tag"># 记录</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2021/02/24/whymp3/" rel="prev" title="「锐族Mp3」使用感受">
+                「锐族Mp3」使用感受 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -461,7 +643,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hi-I%E2%80%99m-Cloud-%F0%9F%91%8B"><span class="nav-number">1.</span> <span class="nav-text">Hi. I’m Cloud ! 👋</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#About-me"><span class="nav-number">1.1.</span> <span class="nav-text">About me</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#About-blog"><span class="nav-number">1.2.</span> <span class="nav-text">About blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Why-blog"><span class="nav-number">1.3.</span> <span class="nav-text">Why blog</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8Github-jsDelivr-PicGo%E7%9A%84%E5%9B%BE%E5%BA%8A%E6%96%B9%E6%A1%88"><span class="nav-number">1.</span> <span class="nav-text">使用Github+jsDelivr+PicGo的图床方案</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%BB%93%E5%BA%93"><span class="nav-number">1.1.</span> <span class="nav-text">新建一个仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96Token"><span class="nav-number">1.2.</span> <span class="nav-text">获取Token</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDPicGo"><span class="nav-number">1.3.</span> <span class="nav-text">下载PicGo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEPicGo"><span class="nav-number">1.4.</span> <span class="nav-text">配置PicGo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%80%E5%90%8E"><span class="nav-number">1.5.</span> <span class="nav-text">最后</span></a></li></ol></li></ol></div>
             
 
           </div>
